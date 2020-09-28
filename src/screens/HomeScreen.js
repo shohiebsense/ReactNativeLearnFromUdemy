@@ -15,7 +15,7 @@ const HomeScreen = (props) => {
           console.log('Button presed')
           navigate('Components')
         }}
-        title="Go to components demo"
+        title="Go to components demo Page"
       />
       <TouchableOpacity
         onPress={() => {
@@ -24,6 +24,13 @@ const HomeScreen = (props) => {
         }}
       >
         <Text>Go To List Component</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          navigate('Image')
+        }}
+      >
+        <Text>Go to Image Component</Text>
       </TouchableOpacity>
     </View>
   )
