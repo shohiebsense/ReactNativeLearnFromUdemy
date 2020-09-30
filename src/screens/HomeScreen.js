@@ -32,6 +32,27 @@ const HomeScreen = (props) => {
       >
         <Text>Go to Image Component</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          navigate('Counter')
+        }}
+      >
+        <Text>Go to Counter Component</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          navigate('Color')
+        }}
+      >
+        <Text>Go to Color Demo</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          navigate('Square')
+        }}
+      >
+        <Text>Go to Square Demooo</Text>
+      </TouchableOpacity>
     </View>
   )
 }
