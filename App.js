@@ -8,6 +8,7 @@ import CounterScreen from './src/screens/CounterScreen'
 import ColorScreen from './src/screens/ColorScreen'
 import SquareScreen from './src/screens/SquareScreen'
 import SquareScreenUsingReducer from './src/screens/SquareScreenUsingReducer'
+import CounterScreenUsingReducer from './src/screens/CounterScreenUsingReducer'
 
 const navigator = createStackNavigator(
   {
@@ -16,6 +17,7 @@ const navigator = createStackNavigator(
     List: ListScreen,
     Image: ImageScreen,
     Counter: CounterScreen,
+    CounterUsingReducer: CounterScreenUsingReducer,
     Color: ColorScreen,
     Square: SquareScreen,
     SquareUsingReducer: SquareScreenUsingReducer,

@@ -41,6 +41,13 @@ const HomeScreen = (props) => {
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
+          navigate('CounterUsingReducer')
+        }}
+      >
+        <Text>Go to Counter Component Using Reducer</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
           navigate('Color')
         }}
       >
