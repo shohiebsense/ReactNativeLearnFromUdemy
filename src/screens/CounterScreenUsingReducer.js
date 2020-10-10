@@ -2,6 +2,8 @@ import React, { useReducer } from 'react'
 import { View, Text, StyleSheet, Button } from 'react-native'
 
 const reducer = (state, action) => {
+  //state === {counter: number}
+  //action === {type: 'increment' || 'decrement', payload : 15}
   return { ...state, counter: state.counter + action.payload }
 }
 

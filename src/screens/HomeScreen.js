@@ -67,6 +67,13 @@ const HomeScreen = (props) => {
       >
         <Text>Go to Square Demooo Using Reducer</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          navigate('Text')
+        }}
+      >
+        <Text>Go to Text Demo</Text>
+      </TouchableOpacity>
     </View>
   )
 }
